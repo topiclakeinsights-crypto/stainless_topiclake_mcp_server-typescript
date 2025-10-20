@@ -1,4 +1,4 @@
 configured_endpoints: 11
 openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/topiclake-insights%2Fstainless_topiclake_mcp_server-6f29663bf73f90809088909ac43bb9bd54327ced58a8e2357da562e0d95c27c8.yml
 openapi_spec_hash: dcff76f2a8426e4f792a0b7c5917d6f7
-config_hash: bdf919259a6ee00a19435157be237f59
+config_hash: 14c8af6471555181d6f77329e6798502

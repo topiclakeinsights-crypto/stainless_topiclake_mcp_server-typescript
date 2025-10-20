@@ -26,7 +26,7 @@ The full API of this library can be found in [api.md](api.md).
 import StainlessTopiclakeMcpServer from 'stainless_topiclake_mcp_server';
 
 const client = new StainlessTopiclakeMcpServer({
-  apiKey: process.env['STAINLESS_TOPICLAKE_MCP_SERVER_API_KEY'], // This is the default and can be omitted
+  apiKey: process.env['API_KEY'], // This is the default and can be omitted
 });
 
 const response = await client.policyinsights.us.export.api.v1.getDocuments();
@@ -43,7 +43,7 @@ This library includes TypeScript definitions for all request params and response
 import StainlessTopiclakeMcpServer from 'stainless_topiclake_mcp_server';
 
 const client = new StainlessTopiclakeMcpServer({
-  apiKey: process.env['STAINLESS_TOPICLAKE_MCP_SERVER_API_KEY'], // This is the default and can be omitted
+  apiKey: process.env['API_KEY'], // This is the default and can be omitted
 });
 
 const response: StainlessTopiclakeMcpServer.Policyinsights.Us.Export.API.V1GetDocumentsResponse =
