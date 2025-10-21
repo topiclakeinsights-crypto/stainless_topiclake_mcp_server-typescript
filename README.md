@@ -22,7 +22,9 @@ The full API of this library can be found in [api.md](api.md).
 ```js
 import StainlessTopiclakeMcpServer from 'stainless_topiclake_mcp_server';
 
-const client = new StainlessTopiclakeMcpServer();
+const client = new StainlessTopiclakeMcpServer({
+  apiKey: process.env['API_KEY'], // This is the default and can be omitted
+});
 
 const response = await client.policyinsights.us.export.api.v1.getDocuments();
 
@@ -37,7 +39,9 @@ This library includes TypeScript definitions for all request params and response
 ```ts
 import StainlessTopiclakeMcpServer from 'stainless_topiclake_mcp_server';
 
-const client = new StainlessTopiclakeMcpServer();
+const client = new StainlessTopiclakeMcpServer({
+  apiKey: process.env['API_KEY'], // This is the default and can be omitted
+});
 
 const response: StainlessTopiclakeMcpServer.Policyinsights.Us.Export.API.V1GetDocumentsResponse =
   await client.policyinsights.us.export.api.v1.getDocuments();
@@ -89,7 +93,6 @@ You can use the `maxRetries` option to configure or disable this:
 ```js
 // Configure the default for all requests:
 const client = new StainlessTopiclakeMcpServer({
-  apiKey: 'My API Key',
   maxRetries: 0, // default is 2
 });
 
@@ -107,7 +110,6 @@ Requests time out after 1 minute by default. You can configure this with a `time
 ```ts
 // Configure the default for all requests:
 const client = new StainlessTopiclakeMcpServer({
-  apiKey: 'My API Key',
   timeout: 20 * 1000, // 20 seconds (default is 1 minute)
 });
 
