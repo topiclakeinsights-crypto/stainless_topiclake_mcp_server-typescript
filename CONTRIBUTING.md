@@ -42,15 +42,15 @@ If you’d like to use the repository from source, you can either install from g
 To install via git:
 
 ```sh
-$ npm install git+ssh://git@github.com:topiclakeinsights-crypto/topiclake-mcp-server.git
+$ npm install git+ssh://git@github.com:topiclakeinsights-crypto/stainless_topiclake_mcp_server-typescript.git
 ```
 
 Alternatively, to link a local copy of the repo:
 
 ```sh
 # Clone
-$ git clone https://www.github.com/topiclakeinsights-crypto/topiclake-mcp-server
-$ cd topiclake-mcp-server
+$ git clone https://www.github.com/topiclakeinsights-crypto/stainless_topiclake_mcp_server-typescript
+$ cd stainless_topiclake_mcp_server-typescript
 
 # With yarn
 $ yarn link
