@@ -9,7 +9,7 @@ jobs:
   release_doctor:
     name: release doctor
     runs-on: ubuntu-latest
-    if: github.repository == 'topiclakeinsights-crypto/topiclake-mcp-server' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch' || startsWith(github.head_ref, 'release-please') || github.head_ref == 'next')
+    if: github.repository == 'topiclakeinsights-crypto/stainless_topiclake_mcp_server-typescript' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch' || startsWith(github.head_ref, 'release-please') || github.head_ref == 'next')
 
     steps:
       - uses: actions/checkout@v4
