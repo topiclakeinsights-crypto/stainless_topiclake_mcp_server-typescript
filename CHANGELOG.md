@@ -1,0 +1,12 @@
+# Changelog
+
+## 0.1.1 (2025-10-21)
+
+Full Changelog: [v0.0.1...v0.1.1](https://github.com/topiclakeinsights-crypto/stainless_topiclake_mcp_server-typescript/compare/v0.0.1...v0.1.1)
+
+### Chores
+
+* sync repo ([2f7948f](https://github.com/topiclakeinsights-crypto/stainless_topiclake_mcp_server-typescript/commit/2f7948f75d40719155676146a140e21b8cefc7c9))
+* update SDK settings ([2509f73](https://github.com/topiclakeinsights-crypto/stainless_topiclake_mcp_server-typescript/commit/2509f73e82d4fb39d44796a3fc9e64c9be48c5c4))
+* update SDK settings ([75ea899](https://github.com/topiclakeinsights-crypto/stainless_topiclake_mcp_server-typescript/commit/75ea899f48eda7bd98dc958b3752b452c9b85ebf))
+* update SDK settings ([b8b727c](https://github.com/topiclakeinsights-crypto/stainless_topiclake_mcp_server-typescript/commit/b8b727c4f69aa8dbe87a47f7deb1608a69079cb8))
