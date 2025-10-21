@@ -11,11 +11,8 @@ It is generated with [Stainless](https://www.stainless.com/).
 ## Installation
 
 ```sh
-npm install git+ssh://git@github.com:topiclakeinsights-crypto/stainless_topiclake_mcp_server-typescript.git
+npm install stainless_topiclake_mcp_server
 ```
-
-> [!NOTE]
-> Once this package is [published to npm](https://www.stainless.com/docs/guides/publish), this will become: `npm install stainless_topiclake_mcp_server`
 
 ## Usage
 
