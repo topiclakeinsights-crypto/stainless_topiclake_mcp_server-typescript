@@ -1,6 +1,6 @@
 {
   "name": "stainless_topiclake_mcp_server",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "The official TypeScript library for the Stainless Topiclake Mcp Server API",
   "author": "Stainless Topiclake Mcp Server <>",
   "types": "dist/index.d.ts",
